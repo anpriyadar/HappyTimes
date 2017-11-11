@@ -1,0 +1,3 @@
+rootProject.name = 'HappyTimes'
+
+include ':app'
