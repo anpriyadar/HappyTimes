@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Scene,Router} from 'react-native-router-flux'
-import Login from '../screens/login'
+import Login from '../src/screens/login'
 
 const RouterComponent =()=> {
   return (
