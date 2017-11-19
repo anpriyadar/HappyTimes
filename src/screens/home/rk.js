@@ -14,7 +14,7 @@ export default class Login extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
-    <Text>2nd Screen</Text>
+    <Text>RMD</Text>
       </View>
     );
   }
