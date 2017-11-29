@@ -8,15 +8,20 @@ import {
 
 import Userinput from '../../components/form/appinput.js'
 import AppForms from '../../components/form/appforms.js'
+import componentStyles from '../../styles/styles'
+
+const s = StyleSheet.create(componentStyles)
+
+
 
 
 export default class Login extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
-      <AppForms >
-        <Userinput placeholder ='email'/>
-        <Userinput placeholder ='password'/>
+      <AppForms customButtonStyles = {s.button} btnText = {'Submit'} >
+        <Userinput placeholder ='Username'/>
+        <Userinput placeholder ='Password'/>
         </AppForms>
       </View>
     );

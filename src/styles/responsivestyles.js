@@ -148,7 +148,7 @@ export default responsiveStyle = {
     height: px(10)
   },
   inputWidth: {
-    width: px(90)
+    width:  px(30)
   },
   ImageSize: {
     width: px(25),

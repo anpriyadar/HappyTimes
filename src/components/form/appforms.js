@@ -7,13 +7,11 @@ const s = StyleSheet.create(componentStyles)
 
 class Form extends Component{
   render(){
-    const { children, buttonDisplayText, customContainerStyles } = this.props
+    const { children, buttonDisplayText, customButtonStyles, btnText } = this.props
     return (
       <View style={{ marginTop: 10, marginBottom: 10 }}>
       {this.props.children}
-        <View style={{ marginTop: 30}}>
-          <Button title = { buttonDisplayText } customContainerStyles = {customContainerStyles} />
-        </View>
+      <Button title = { buttonDisplayText } customButtonStyles = {customButtonStyles} btnText= {btnText} />
       </View>
     )
   }

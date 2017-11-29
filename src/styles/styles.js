@@ -593,4 +593,52 @@ module.exports = {
     paddingLeft: 15,
     paddingRight: 15
   },
+  container: {
+    flex: 1
+  },
+  containerInner: {
+    flex: 1,
+    padding: 20,
+    backgroundColor: 'transparent'
+  },
+  forgotPassword: {
+    paddingBottom: 30
+  },
+  forgotPasswordText: {
+    color: 'black'
+  },
+  centerize: {
+    alignItems: 'center',
+  },
+  title: {
+    fontSize: 18,
+    backgroundColor: 'transparent',
+    color: 'black'
+  },
+  center: {
+    textAlign: 'center',
+    backgroundColor: 'transparent',
+    color: 'black'
+  },
+  inputIOS: {
+    marginTop: 20,
+    height: 40,
+    paddingHorizontal: 10,
+    borderRadius: 10,
+    color: 'black',
+    backgroundColor: 'white'
+  },
+  button: {
+    width: 250,
+    marginVertical: 20,
+    height: 40,
+    justifyContent: 'center',
+    backgroundColor: '#02A692',
+    borderRadius: 20
+  },
+  buttonText: {
+    color: 'white',
+    backgroundColor: 'transparent',
+    textAlign: 'center'
+  }
 }

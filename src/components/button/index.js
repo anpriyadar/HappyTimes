@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, StyleSheet, View } from 'react-native'
+import { Button, StyleSheet, View, Text, TouchableOpacity } from 'react-native'
 import { Actions } from 'react-native-router-flux'
 
 
@@ -8,16 +8,13 @@ const s = StyleSheet.create(componentStyles)
 
 class UserButton extends Component{
   render(){
-    const {customContainerStyles} =this.props
-
+    const {customButtonStyles, btnText} =this.props
+    buttonText = <Text style={s.buttonText}>{btnText}</Text>;
     return(
-      <View style={s.fullPadding}>
-      <Button
-       title="submit"
-       color="#841584"
-       onPress={Actions.tabbar}
-    />
-      </View>
+    <TouchableOpacity onPress={Actions.tabbar}
+    style={customButtonStyles}>
+    {buttonText}
+    </TouchableOpacity>
     )
   }
 }
