@@ -498,4 +498,19 @@ export default responsiveStyle = {
   fullWidthBtn: {
     width: isTablet ? 350 : totalWidth(96)
   },
+  fullWidthImage:{
+    width: deviceWidth
+  },
+  fullHeightImage:{
+    height: y
+  },
+  button: {
+    width: px(28),
+    marginVertical: 20,
+    height: 40,
+    justifyContent: 'center',
+    backgroundColor: '#02A692',
+    borderRadius: 20
+  }
+
 }

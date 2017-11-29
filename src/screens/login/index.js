@@ -3,14 +3,19 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  ImageBackground
 } from 'react-native';
 
 import Userinput from '../../components/form/appinput.js'
 import AppForms from '../../components/form/appforms.js'
 import componentStyles from '../../styles/styles'
+import responsiveComponentStyles from '../../styles/responsivestyles'
+
 
 const s = StyleSheet.create(componentStyles)
+const rs = StyleSheet.create(responsiveComponentStyles)
+
 
 
 
@@ -18,12 +23,12 @@ const s = StyleSheet.create(componentStyles)
 export default class Login extends Component<{}> {
   render() {
     return (
-      <View style={styles.container}>
-      <AppForms customButtonStyles = {s.button} btnText = {'Submit'} >
+      <ImageBackground  style={[rs.fullWidthImage,rs.fullHeightImage,s.alignItemsCenter,s.justifyCenter]} source={require('../../../assets/Login2.jpg')}>
+      <AppForms customButtonStyles = {rs.button} btnText = {'Submit'} >
         <Userinput placeholder ='Username'/>
         <Userinput placeholder ='Password'/>
         </AppForms>
-      </View>
+        </ImageBackground>
     );
   }
 }
