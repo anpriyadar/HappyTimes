@@ -9,7 +9,6 @@ export default class Userinput extends Component {
   render() {
   const deviceStyle = Platform.OS === 'ios' ?[s.borderBottomGreyThin,rs.inputWidth,s.height40] : [rs.inputWidth,s.height40]
     return (
-      <View style={[s.fullPaddingLg]}>
         <TextInput
           style= {deviceStyle}
           placeholder={this.props.placeholder}
@@ -17,7 +16,6 @@ export default class Userinput extends Component {
           selectionColor = 'darkblue'
           onChangeText={(text) => this.setState({text})}
         />
-      </View>
     );
   }
 }
