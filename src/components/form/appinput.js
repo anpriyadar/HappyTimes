@@ -7,10 +7,11 @@ const rs = StyleSheet.create(responsiveComponentStyles)
 
 export default class Userinput extends Component {
   render() {
-  const deviceStyle = Platform.OS === 'ios' ?[s.borderBottomGreyThin,rs.inputWidth,s.height40] : [rs.inputWidth,s.height40]
+  const deviceStyle = Platform.OS === 'ios' ?[s.borderFullGreyThin,rs.inputWidth,s.height40,s.backgroundWhite,s.borderRadiusLg,s.fullPaddingSm] : [rs.inputWidth,s.height40,s.backgroundWhite,s.borderRadiusLg,s.fullPaddingSm]
     return (
         <TextInput
           style= {deviceStyle}
+          secureTextEntry = {this.props.secureTextEntry}
           placeholder={this.props.placeholder}
           placeholderTextColor = '#777'
           selectionColor = 'darkblue'

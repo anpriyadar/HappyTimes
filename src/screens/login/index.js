@@ -26,7 +26,7 @@ export default class Login extends Component<{}> {
       <ImageBackground  style={[rs.fullWidthImage,rs.fullHeightImage,s.alignItemsCenter,s.justifyCenter]} source={require('../../../assets/Login2.jpg')}>
       <AppForms customButtonStyles = {rs.button} btnText = {'Submit'} >
         <Userinput placeholder ='Username'/>
-        <Userinput placeholder ='Password'/>
+        <Userinput placeholder ='Password' secureTextEntry = {true}/>
         </AppForms>
         </ImageBackground>
     );

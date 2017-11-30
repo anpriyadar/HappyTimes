@@ -322,6 +322,9 @@ module.exports = {
   borderRadius: {
     borderRadius: 5,
   },
+  borderRadiusLg: {
+    borderRadius: 10,
+  },
   borderRadiusMd: {
     borderRadius: 4,
   },
