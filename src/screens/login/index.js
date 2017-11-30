@@ -11,6 +11,7 @@ import Userinput from '../../components/form/appinput.js'
 import AppForms from '../../components/form/appforms.js'
 import componentStyles from '../../styles/styles'
 import responsiveComponentStyles from '../../styles/responsivestyles'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 
 const s = StyleSheet.create(componentStyles)
@@ -28,6 +29,9 @@ export default class Login extends Component<{}> {
         <Userinput placeholder ='Username'/>
         <Userinput placeholder ='Password' secureTextEntry = {true}/>
         </AppForms>
+        <Icon.Button name="facebook" backgroundColor="#3b5998" onPress = {()=>alert('Test Button Press')}>
+          <Text style={{fontFamily: 'Arial', fontSize: 15, color: '#fff'}}>Login with Facebook</Text>
+        </Icon.Button>
         </ImageBackground>
     );
   }
