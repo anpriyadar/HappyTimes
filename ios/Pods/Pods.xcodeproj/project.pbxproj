@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AED6A8FBEF7F5C59C7082B8E7716BE2 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2194935B57BFD3DAE1ED66503C4042 /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		102A4DE21FFAABA02A583ABBA5D451FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		17827269D425A76FADEA8D0608295FF2 /* Pods-HappyTimesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE0B41562C0B881C5DC7DF6D168C999 /* Pods-HappyTimesTests-dummy.m */; };
+		1B6053DB4F426B47C4A91E97990824D3 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1263B5DAF98A3E8C34BDD497B909C927 /* GoogleToolboxForMac-dummy.m */; };
+		1E46EC8AB8830A23FAC91E8547748BF5 /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 396F3D0D21F055967EAB5F8A4C6BB208 /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F527373A7476D0492368603C5C19E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		28B7761E1D77D96D267539A7B67188EA /* nanopb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34610CD412308E57A29DEAB5B5119556 /* nanopb-dummy.m */; };
+		3D5A8358B3CE03D143C39C4BF52B34D3 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 987D7D3B832EF8F119DA2796463DCBFA /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		50C38891CD7175A61EC61F80D79302E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6B02824B166AF4649072CAB930283EEA /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A837CAD9BAC4CF736C4D9CAB9ACDAE /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BB90BC41D060451F19154803B8E9AA1 /* Pods-HappyTimes-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19855168A9B53447633A1E4ADEA367 /* Pods-HappyTimes-tvOS-dummy.m */; };
+		8D0C2DDE56FEF3EBB945777AD472CBDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		91C9C419C2E304B3A68293C22053034E /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B9BE4F5A189EF8633AABBD222F66037 /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		9CBD14C17446EC9384CFAADBADF12387 /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D538FE5F937A07299552284D0E33A96 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
+		A39A7F90321353E49D6165BAD53505B2 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FE65FE955C0769DFBC950724946329 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE40968E45EB75088481466E4E7671A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B9D8EB034239AD7564420BEED0D3E5FB /* Pods-HappyTimes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5EA0729C936EDFB395B797671B54E9 /* Pods-HappyTimes-dummy.m */; };
+		CBC7548501161D689ACF033CA42AA1AB /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ABC6CFCD602E31796E360437C1B40D1 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D02A9BE496DF996BBC92776E586BCAF8 /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FAB38CA570F1F4B6777AC7FC528F78E /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A71EFF37214BF8F060F8710E7358A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F2A7C7D18755231B289C10D16DD6F730 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8203A99B4232C8BABA0F4252E0D8EB65 /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		F577A3121FA01A334B100B082D5DF4D9 /* Pods-HappyTimes-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6E4ADFBAE4D81D2A400FB45C0CB68 /* Pods-HappyTimes-tvOSTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9963305AD0FD321ABBE76CF5519D5EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4B35B9FC819386EB09219BC91827D7;
+			remoteInfo = nanopb;
+		};
+		998202FD776DD8D686F75850D0D88573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BBB76ADBF2EF4EF2CE5DF6BBC77296;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001140A2BCDAA348B9F652A64CFC05FE /* Pods-HappyTimes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyTimes-frameworks.sh"; sourceTree = "<group>"; };
+		091F352BA24FAFD2BD8E68862CF2B4ED /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		0A64E10142EE39924D3CE9536497E2DF /* Pods-HappyTimes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyTimes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1263B5DAF98A3E8C34BDD497B909C927 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		17D7CB4E265F749ED7EE6CE6809DDEF8 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		1B707F0CD44C207FA89E6FD3C0A23E4F /* Pods-HappyTimes-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyTimes-resources.sh"; sourceTree = "<group>"; };
+		1B9BE4F5A189EF8633AABBD222F66037 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
+		1D4B3E0C45B8B3CA6FE8128CD9DDC768 /* Pods-HappyTimes-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyTimes-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		21A837CAD9BAC4CF736C4D9CAB9ACDAE /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		2ABC6CFCD602E31796E360437C1B40D1 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		2E1CB3552F76E01805D356345A77D4AD /* libGoogleToolboxForMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGoogleToolboxForMac.a; path = libGoogleToolboxForMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2194935B57BFD3DAE1ED66503C4042 /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
+		2FA90CEC6BA8F793C665D6B6FB2D8237 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		34610CD412308E57A29DEAB5B5119556 /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
+		396B83EB745ED117AD0512C93C6FF1ED /* Pods-HappyTimes-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyTimes-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		396F3D0D21F055967EAB5F8A4C6BB208 /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+		3B64F4D2FB20CD12386F936529F918BA /* Pods-HappyTimes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyTimes.release.xcconfig"; sourceTree = "<group>"; };
+		3BF39FAA27D2908D3D5E15B93334F27B /* Pods-HappyTimes-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyTimes-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3C0836A74203B8C3561E472498E260D1 /* Pods-HappyTimes-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyTimes-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DC6E4ADFBAE4D81D2A400FB45C0CB68 /* Pods-HappyTimes-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyTimes-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		42084FC99D132E667256482B48369582 /* Pods-HappyTimes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyTimes.debug.xcconfig"; sourceTree = "<group>"; };
+		4DA142A220FC62D9E464DE777BE2572E /* Pods-HappyTimes-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyTimes-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50D34E5A86494BC2AF3C064B5A3320B1 /* libPods-HappyTimes-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HappyTimes-tvOSTests.a"; path = "libPods-HappyTimes-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		530F1797FA97589EDF717F3204B2768F /* Pods-HappyTimes-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyTimes-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		5781526AD437A00C4907E175A1F9B824 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		5857319B3AF21174742939162D58FA56 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		5ABA1088252034FF4905EEC9540EC019 /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
+		5D1302439B4BEF26B4FE8D898ED1DEA6 /* Pods-HappyTimes-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyTimes-tvOS-resources.sh"; sourceTree = "<group>"; };
+		5E9D028CC205CBFE9ADCDB39EE066C95 /* Pods-HappyTimes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyTimes-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D538FE5F937A07299552284D0E33A96 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
+		6FE0B41562C0B881C5DC7DF6D168C999 /* Pods-HappyTimesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyTimesTests-dummy.m"; sourceTree = "<group>"; };
+		7159E26CFB27222D5129B65C096304DC /* libPods-HappyTimes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HappyTimes.a"; path = "libPods-HappyTimes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72224E5E74EFE503C6A1CDE6753CE582 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		7C5294500E4EFB8C202F812573FED056 /* Pods-HappyTimesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyTimesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FAB38CA570F1F4B6777AC7FC528F78E /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
+		81FE65FE955C0769DFBC950724946329 /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
+		8203A99B4232C8BABA0F4252E0D8EB65 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
+		857A1DCE94B231A77861854054296BB5 /* Pods-HappyTimesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyTimesTests-resources.sh"; sourceTree = "<group>"; };
+		8D55F330C2941D972C1061C4EDF65629 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		8D70EB352A3CF2DAA1E316AF2AFDF5E3 /* Pods-HappyTimes-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyTimes-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8FE64476A33B9CE30B859C89009B1209 /* libnanopb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libnanopb.a; path = libnanopb.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B279469167D1575E7E5894D984ED7F /* Pods-HappyTimesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyTimesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		987D7D3B832EF8F119DA2796463DCBFA /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		98C8892BB344D5204013AF77966A6F16 /* Pods-HappyTimesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyTimesTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA19855168A9B53447633A1E4ADEA367 /* Pods-HappyTimes-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyTimes-tvOS-dummy.m"; sourceTree = "<group>"; };
+		B171C9544758E3D164B17D0EA81040A8 /* libPods-HappyTimesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HappyTimesTests.a"; path = "libPods-HappyTimesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ECFB6358FE5A040605AF1CE15F2878 /* Pods-HappyTimes-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyTimes-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		BEFCF1CDA7C62ED440C8DDEC07C8B1F8 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		C7EFDB6726C779A2261511E48F677941 /* Pods-HappyTimes-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyTimes-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		D8EB410528FFD45B6314E2DBBD179E74 /* Pods-HappyTimes-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyTimes-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB42A2DA3E14776E5472A3D21AD9A523 /* Pods-HappyTimesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HappyTimesTests-frameworks.sh"; sourceTree = "<group>"; };
+		DD5EA0729C936EDFB395B797671B54E9 /* Pods-HappyTimes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyTimes-dummy.m"; sourceTree = "<group>"; };
+		E569904A776AC617935EE13D31B9C5AC /* libPods-HappyTimes-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HappyTimes-tvOS.a"; path = "libPods-HappyTimes-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71DEA7342A296EF56C066821EAE9399 /* Pods-HappyTimes-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyTimes-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F809233EB84C8433170EE95490B23237 /* Pods-HappyTimesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyTimesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F89B3CF90C7AFDA737F32DA73916C5AE /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		736872D0F6BFBDB3F36ED73405DE4E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE40968E45EB75088481466E4E7671A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EB8A8937D61E8CED1F3C819230AE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A71EFF37214BF8F060F8710E7358A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB3871A516AE054D74FE09A336383AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102A4DE21FFAABA02A583ABBA5D451FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B96D7E69E441937DE29C02B4EA5F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C38891CD7175A61EC61F80D79302E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30DDD3CB3EF9D10F0EB319E849BD44F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F527373A7476D0492368603C5C19E7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D64C0B3881D7961E869A6F7EE79FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C2DDE56FEF3EBB945777AD472CBDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06ECCB735EB445F9EDF87D2247A9D2A9 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				409A8D7D1FFBDAA2D13F7F2FF8B4E14B /* Defines */,
+				E64C2EF22F8942FBA3DDD36DE8A8C14A /* NSData+zlib */,
+				1ED0CED690F494F366F9AB8DD7EB4FEF /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		075291B30DB1B15260D0C68207F3E106 /* decode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = decode;
+			sourceTree = "<group>";
+		};
+		1ED0CED690F494F366F9AB8DD7EB4FEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FA90CEC6BA8F793C665D6B6FB2D8237 /* GoogleToolboxForMac.xcconfig */,
+				1263B5DAF98A3E8C34BDD497B909C927 /* GoogleToolboxForMac-dummy.m */,
+				8D55F330C2941D972C1061C4EDF65629 /* GoogleToolboxForMac-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		22682970C35F0318A2427268A068784B /* Pods-HappyTimes-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8EB410528FFD45B6314E2DBBD179E74 /* Pods-HappyTimes-tvOSTests-acknowledgements.markdown */,
+				396B83EB745ED117AD0512C93C6FF1ED /* Pods-HappyTimes-tvOSTests-acknowledgements.plist */,
+				3DC6E4ADFBAE4D81D2A400FB45C0CB68 /* Pods-HappyTimes-tvOSTests-dummy.m */,
+				1D4B3E0C45B8B3CA6FE8128CD9DDC768 /* Pods-HappyTimes-tvOSTests-frameworks.sh */,
+				530F1797FA97589EDF717F3204B2768F /* Pods-HappyTimes-tvOSTests-resources.sh */,
+				4DA142A220FC62D9E464DE777BE2572E /* Pods-HappyTimes-tvOSTests.debug.xcconfig */,
+				E71DEA7342A296EF56C066821EAE9399 /* Pods-HappyTimes-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-HappyTimes-tvOSTests";
+			path = "Target Support Files/Pods-HappyTimes-tvOSTests";
+			sourceTree = "<group>";
+		};
+		35B180DE65DF96286E579D4B71276075 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				9423BF591DA4C65CAEC62D1E98DA477F /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		3991CF249306DB5524CF47E84CD54357 /* encode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = encode;
+			sourceTree = "<group>";
+		};
+		409A8D7D1FFBDAA2D13F7F2FF8B4E14B /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				21A837CAD9BAC4CF736C4D9CAB9ACDAE /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		47E42F7301DFDDB7D62E990526701C4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEFCF1CDA7C62ED440C8DDEC07C8B1F8 /* FirebaseAnalytics.framework */,
+				72224E5E74EFE503C6A1CDE6753CE582 /* FirebaseCoreDiagnostics.framework */,
+				17D7CB4E265F749ED7EE6CE6809DDEF8 /* FirebaseNanoPB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		618A081EEE653BFA00B8652EF5803418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E1CB3552F76E01805D356345A77D4AD /* libGoogleToolboxForMac.a */,
+				8FE64476A33B9CE30B859C89009B1209 /* libnanopb.a */,
+				7159E26CFB27222D5129B65C096304DC /* libPods-HappyTimes.a */,
+				E569904A776AC617935EE13D31B9C5AC /* libPods-HappyTimes-tvOS.a */,
+				50D34E5A86494BC2AF3C064B5A3320B1 /* libPods-HappyTimes-tvOSTests.a */,
+				B171C9544758E3D164B17D0EA81040A8 /* libPods-HappyTimesTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E2B84922F851DB73C77EA86194D61F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89B3CF90C7AFDA737F32DA73916C5AE /* nanopb.xcconfig */,
+				34610CD412308E57A29DEAB5B5119556 /* nanopb-dummy.m */,
+				5ABA1088252034FF4905EEC9540EC019 /* nanopb-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/nanopb";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D20196F804763B3817DC669C74EEB701 /* Pods */,
+				618A081EEE653BFA00B8652EF5803418 /* Products */,
+				E41F7BD5959BDF0B54CECC8D192102D4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FE25D69C3023269B595924C6F0132A8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5781526AD437A00C4907E175A1F9B824 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		855DDEB1C0290862E40B799B6C278D58 /* nanopb */ = {
+			isa = PBXGroup;
+			children = (
+				81FE65FE955C0769DFBC950724946329 /* pb.h */,
+				6D538FE5F937A07299552284D0E33A96 /* pb_common.c */,
+				396F3D0D21F055967EAB5F8A4C6BB208 /* pb_common.h */,
+				8203A99B4232C8BABA0F4252E0D8EB65 /* pb_decode.c */,
+				2E2194935B57BFD3DAE1ED66503C4042 /* pb_decode.h */,
+				1B9BE4F5A189EF8633AABBD222F66037 /* pb_encode.c */,
+				7FAB38CA570F1F4B6777AC7FC528F78E /* pb_encode.h */,
+				075291B30DB1B15260D0C68207F3E106 /* decode */,
+				3991CF249306DB5524CF47E84CD54357 /* encode */,
+				6E2B84922F851DB73C77EA86194D61F0 /* Support Files */,
+			);
+			name = nanopb;
+			path = nanopb;
+			sourceTree = "<group>";
+		};
+		9423BF591DA4C65CAEC62D1E98DA477F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5857319B3AF21174742939162D58FA56 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B06D12325B6710B0FD216CF11F3006E /* Pods-HappyTimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B279469167D1575E7E5894D984ED7F /* Pods-HappyTimesTests-acknowledgements.markdown */,
+				F809233EB84C8433170EE95490B23237 /* Pods-HappyTimesTests-acknowledgements.plist */,
+				6FE0B41562C0B881C5DC7DF6D168C999 /* Pods-HappyTimesTests-dummy.m */,
+				DB42A2DA3E14776E5472A3D21AD9A523 /* Pods-HappyTimesTests-frameworks.sh */,
+				857A1DCE94B231A77861854054296BB5 /* Pods-HappyTimesTests-resources.sh */,
+				7C5294500E4EFB8C202F812573FED056 /* Pods-HappyTimesTests.debug.xcconfig */,
+				98C8892BB344D5204013AF77966A6F16 /* Pods-HappyTimesTests.release.xcconfig */,
+			);
+			name = "Pods-HappyTimesTests";
+			path = "Target Support Files/Pods-HappyTimesTests";
+			sourceTree = "<group>";
+		};
+		B248CDB646D7C75A266CD3110AF1E8FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091F352BA24FAFD2BD8E68862CF2B4ED /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4734D8A8CDAA68947A536FB69B4D49D /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				47E42F7301DFDDB7D62E990526701C4F /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D20196F804763B3817DC669C74EEB701 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D52BBEEEDDC743540AC81A7F5CC6B0D4 /* Firebase */,
+				B4734D8A8CDAA68947A536FB69B4D49D /* FirebaseAnalytics */,
+				D8856D6AF1AC0D9E66ECF90F73BAA7F3 /* FirebaseCore */,
+				35B180DE65DF96286E579D4B71276075 /* FirebaseInstanceID */,
+				06ECCB735EB445F9EDF87D2247A9D2A9 /* GoogleToolboxForMac */,
+				855DDEB1C0290862E40B799B6C278D58 /* nanopb */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D52BBEEEDDC743540AC81A7F5CC6B0D4 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				7FE25D69C3023269B595924C6F0132A8 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		D8856D6AF1AC0D9E66ECF90F73BAA7F3 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				B248CDB646D7C75A266CD3110AF1E8FD /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		E41F7BD5959BDF0B54CECC8D192102D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F219417392E797AC8E0D3B6B0E89D09D /* Pods-HappyTimes */,
+				FD9B586DC601A8E53F4D12AFBB6918D6 /* Pods-HappyTimes-tvOS */,
+				22682970C35F0318A2427268A068784B /* Pods-HappyTimes-tvOSTests */,
+				9B06D12325B6710B0FD216CF11F3006E /* Pods-HappyTimesTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E64C2EF22F8942FBA3DDD36DE8A8C14A /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				2ABC6CFCD602E31796E360437C1B40D1 /* GTMNSData+zlib.h */,
+				987D7D3B832EF8F119DA2796463DCBFA /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		F219417392E797AC8E0D3B6B0E89D09D /* Pods-HappyTimes */ = {
+			isa = PBXGroup;
+			children = (
+				0A64E10142EE39924D3CE9536497E2DF /* Pods-HappyTimes-acknowledgements.markdown */,
+				5E9D028CC205CBFE9ADCDB39EE066C95 /* Pods-HappyTimes-acknowledgements.plist */,
+				DD5EA0729C936EDFB395B797671B54E9 /* Pods-HappyTimes-dummy.m */,
+				001140A2BCDAA348B9F652A64CFC05FE /* Pods-HappyTimes-frameworks.sh */,
+				1B707F0CD44C207FA89E6FD3C0A23E4F /* Pods-HappyTimes-resources.sh */,
+				42084FC99D132E667256482B48369582 /* Pods-HappyTimes.debug.xcconfig */,
+				3B64F4D2FB20CD12386F936529F918BA /* Pods-HappyTimes.release.xcconfig */,
+			);
+			name = "Pods-HappyTimes";
+			path = "Target Support Files/Pods-HappyTimes";
+			sourceTree = "<group>";
+		};
+		FD9B586DC601A8E53F4D12AFBB6918D6 /* Pods-HappyTimes-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				8D70EB352A3CF2DAA1E316AF2AFDF5E3 /* Pods-HappyTimes-tvOS-acknowledgements.markdown */,
+				3C0836A74203B8C3561E472498E260D1 /* Pods-HappyTimes-tvOS-acknowledgements.plist */,
+				AA19855168A9B53447633A1E4ADEA367 /* Pods-HappyTimes-tvOS-dummy.m */,
+				C7EFDB6726C779A2261511E48F677941 /* Pods-HappyTimes-tvOS-frameworks.sh */,
+				5D1302439B4BEF26B4FE8D898ED1DEA6 /* Pods-HappyTimes-tvOS-resources.sh */,
+				3BF39FAA27D2908D3D5E15B93334F27B /* Pods-HappyTimes-tvOS.debug.xcconfig */,
+				B6ECFB6358FE5A040605AF1CE15F2878 /* Pods-HappyTimes-tvOS.release.xcconfig */,
+			);
+			name = "Pods-HappyTimes-tvOS";
+			path = "Target Support Files/Pods-HappyTimes-tvOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34476B01833D8F46D0CEB0D1A2BDEECD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B02824B166AF4649072CAB930283EEA /* GTMDefines.h in Headers */,
+				CBC7548501161D689ACF033CA42AA1AB /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EE04F5125849E644783C89F23AA9F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39A7F90321353E49D6165BAD53505B2 /* pb.h in Headers */,
+				1E46EC8AB8830A23FAC91E8547748BF5 /* pb_common.h in Headers */,
+				0AED6A8FBEF7F5C59C7082B8E7716BE2 /* pb_decode.h in Headers */,
+				D02A9BE496DF996BBC92776E586BCAF8 /* pb_encode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4BA45BC9FC25F767DAC920221DF738FB /* Pods-HappyTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E692507CB8211353A194C3C37D8C067 /* Build configuration list for PBXNativeTarget "Pods-HappyTimes" */;
+			buildPhases = (
+				76A6EAFA7E54EA9CF5FB90D7DB1F1509 /* Sources */,
+				B6B96D7E69E441937DE29C02B4EA5F03 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77092B67CC6341E708E08F8C4F49B56A /* PBXTargetDependency */,
+				9044195249DD9A7AC09B6A5CA47AC499 /* PBXTargetDependency */,
+			);
+			name = "Pods-HappyTimes";
+			productName = "Pods-HappyTimes";
+			productReference = 7159E26CFB27222D5129B65C096304DC /* libPods-HappyTimes.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B523893C54901617416F98534C20840D /* Pods-HappyTimes-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55EBD862EA85D33A1595FF8001ACD231 /* Build configuration list for PBXNativeTarget "Pods-HappyTimes-tvOSTests" */;
+			buildPhases = (
+				B5EE9261B0B1A0B8E63442C79614544A /* Sources */,
+				E30DDD3CB3EF9D10F0EB319E849BD44F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HappyTimes-tvOSTests";
+			productName = "Pods-HappyTimes-tvOSTests";
+			productReference = 50D34E5A86494BC2AF3C064B5A3320B1 /* libPods-HappyTimes-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C6DCB0D0CE59E13D2F7DBC5C20DF303E /* Pods-HappyTimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BA78732D47D1820A6B6913677A3D23 /* Build configuration list for PBXNativeTarget "Pods-HappyTimesTests" */;
+			buildPhases = (
+				EC5E65F999ED69C9406B16BED7D49FC3 /* Sources */,
+				AEB3871A516AE054D74FE09A336383AE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HappyTimesTests";
+			productName = "Pods-HappyTimesTests";
+			productReference = B171C9544758E3D164B17D0EA81040A8 /* libPods-HappyTimesTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF4B35B9FC819386EB09219BC91827D7 /* nanopb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8307E997A097EB50C00A8C7967B858A /* Build configuration list for PBXNativeTarget "nanopb" */;
+			buildPhases = (
+				5303D5F0966B6798D7AAA88A9ACCB670 /* Sources */,
+				94EB8A8937D61E8CED1F3C819230AE4D /* Frameworks */,
+				49EE04F5125849E644783C89F23AA9F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nanopb;
+			productName = nanopb;
+			productReference = 8FE64476A33B9CE30B859C89009B1209 /* libnanopb.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D68561792AC249A1DD6C761C48562130 /* Pods-HappyTimes-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF11559629AED4EC88495E3F36D3AA4 /* Build configuration list for PBXNativeTarget "Pods-HappyTimes-tvOS" */;
+			buildPhases = (
+				1C7F56894B79B2865770F8B3E606CF3F /* Sources */,
+				E6D64C0B3881D7961E869A6F7EE79FE8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HappyTimes-tvOS";
+			productName = "Pods-HappyTimes-tvOS";
+			productReference = E569904A776AC617935EE13D31B9C5AC /* libPods-HappyTimes-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1BBB76ADBF2EF4EF2CE5DF6BBC77296 /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8E910B89548204C9E82F8F7CCB1460E /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				E039C8832DF36C6AA9B398412DBAA4B5 /* Sources */,
+				736872D0F6BFBDB3F36ED73405DE4E29 /* Frameworks */,
+				34476B01833D8F46D0CEB0D1A2BDEECD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 2E1CB3552F76E01805D356345A77D4AD /* libGoogleToolboxForMac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 618A081EEE653BFA00B8652EF5803418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1BBB76ADBF2EF4EF2CE5DF6BBC77296 /* GoogleToolboxForMac */,
+				CF4B35B9FC819386EB09219BC91827D7 /* nanopb */,
+				4BA45BC9FC25F767DAC920221DF738FB /* Pods-HappyTimes */,
+				D68561792AC249A1DD6C761C48562130 /* Pods-HappyTimes-tvOS */,
+				B523893C54901617416F98534C20840D /* Pods-HappyTimes-tvOSTests */,
+				C6DCB0D0CE59E13D2F7DBC5C20DF303E /* Pods-HappyTimesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C7F56894B79B2865770F8B3E606CF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB90BC41D060451F19154803B8E9AA1 /* Pods-HappyTimes-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5303D5F0966B6798D7AAA88A9ACCB670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B7761E1D77D96D267539A7B67188EA /* nanopb-dummy.m in Sources */,
+				9CBD14C17446EC9384CFAADBADF12387 /* pb_common.c in Sources */,
+				F2A7C7D18755231B289C10D16DD6F730 /* pb_decode.c in Sources */,
+				91C9C419C2E304B3A68293C22053034E /* pb_encode.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A6EAFA7E54EA9CF5FB90D7DB1F1509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D8EB034239AD7564420BEED0D3E5FB /* Pods-HappyTimes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EE9261B0B1A0B8E63442C79614544A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F577A3121FA01A334B100B082D5DF4D9 /* Pods-HappyTimes-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E039C8832DF36C6AA9B398412DBAA4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6053DB4F426B47C4A91E97990824D3 /* GoogleToolboxForMac-dummy.m in Sources */,
+				3D5A8358B3CE03D143C39C4BF52B34D3 /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5E65F999ED69C9406B16BED7D49FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17827269D425A76FADEA8D0608295FF2 /* Pods-HappyTimesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77092B67CC6341E708E08F8C4F49B56A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = E1BBB76ADBF2EF4EF2CE5DF6BBC77296 /* GoogleToolboxForMac */;
+			targetProxy = 998202FD776DD8D686F75850D0D88573 /* PBXContainerItemProxy */;
+		};
+		9044195249DD9A7AC09B6A5CA47AC499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanopb;
+			target = CF4B35B9FC819386EB09219BC91827D7 /* nanopb */;
+			targetProxy = 9963305AD0FD321ABBE76CF5519D5EFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4064C82C2742D555DB5EE37E5FFA0519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89B3CF90C7AFDA737F32DA73916C5AE /* nanopb.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		425FD12E8E1155DA176EE88F859DD242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF39FAA27D2908D3D5E15B93334F27B /* Pods-HappyTimes-tvOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		499B06882FFBEB1EA1FE147565544D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89B3CF90C7AFDA737F32DA73916C5AE /* nanopb.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C9EFECE4A17B8C29B0692FD7FB7C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA90CEC6BA8F793C665D6B6FB2D8237 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687758857A762A432AA33A68D22F297C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B64F4D2FB20CD12386F936529F918BA /* Pods-HappyTimes.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0571ADAB862F4AF419ADDEEA9B21545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71DEA7342A296EF56C066821EAE9399 /* Pods-HappyTimes-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A95BD4E7C2E3FEACB7E238DE6941436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42084FC99D132E667256482B48369582 /* Pods-HappyTimes.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BECAA0AFC84F4190356D136CE283D1F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA142A220FC62D9E464DE777BE2572E /* Pods-HappyTimes-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C12943C815878A90AFF24A87E29B595D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C8892BB344D5204013AF77966A6F16 /* Pods-HappyTimesTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F363A328A126A2A21385BD19FB27A60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA90CEC6BA8F793C665D6B6FB2D8237 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F97585FEEA33F55003E671A2C8E88F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5294500E4EFB8C202F812573FED056 /* Pods-HappyTimesTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE227A82347D49106966CCFA0E0FB908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6ECFB6358FE5A040605AF1CE15F2878 /* Pods-HappyTimes-tvOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E692507CB8211353A194C3C37D8C067 /* Build configuration list for PBXNativeTarget "Pods-HappyTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95BD4E7C2E3FEACB7E238DE6941436C /* Debug */,
+				687758857A762A432AA33A68D22F297C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55EBD862EA85D33A1595FF8001ACD231 /* Build configuration list for PBXNativeTarget "Pods-HappyTimes-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BECAA0AFC84F4190356D136CE283D1F3 /* Debug */,
+				A0571ADAB862F4AF419ADDEEA9B21545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CF11559629AED4EC88495E3F36D3AA4 /* Build configuration list for PBXNativeTarget "Pods-HappyTimes-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425FD12E8E1155DA176EE88F859DD242 /* Debug */,
+				FE227A82347D49106966CCFA0E0FB908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8307E997A097EB50C00A8C7967B858A /* Build configuration list for PBXNativeTarget "nanopb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499B06882FFBEB1EA1FE147565544D26 /* Debug */,
+				4064C82C2742D555DB5EE37E5FFA0519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8E910B89548204C9E82F8F7CCB1460E /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F363A328A126A2A21385BD19FB27A60F /* Debug */,
+				64C9EFECE4A17B8C29B0692FD7FB7C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BA78732D47D1820A6B6913677A3D23 /* Build configuration list for PBXNativeTarget "Pods-HappyTimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97585FEEA33F55003E671A2C8E88F1E /* Debug */,
+				C12943C815878A90AFF24A87E29B595D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
