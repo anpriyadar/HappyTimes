@@ -12,16 +12,28 @@ import AppForms from '../../components/form/appforms.js'
 import componentStyles from '../../styles/styles'
 import responsiveComponentStyles from '../../styles/responsivestyles'
 import Icon from 'react-native-vector-icons/FontAwesome'
+import firebase from 'react-native-firebase';
 
 
 const s = StyleSheet.create(componentStyles)
 const rs = StyleSheet.create(responsiveComponentStyles)
 
 
-
-
-
 export default class Login extends Component<{}> {
+  constructor() {
+    super();
+    this.state = {
+      isAuthenticated: false,
+    };
+  }
+  componentDidMount() {
+  firebase.auth().signInAnonymously()
+    .then(() => {
+      this.setState({
+        isAuthenticated: true,
+      });
+    });
+}
   render() {
     return (
       <ImageBackground  style={[rs.fullWidthImage,rs.fullHeightImage,s.alignItemsCenter,s.justifyCenter]} source={require('../../../assets/Login2.jpg')}>
