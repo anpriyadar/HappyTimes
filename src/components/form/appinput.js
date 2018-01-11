@@ -16,7 +16,7 @@ export default class Userinput extends Component {
           placeholder={this.props.placeholder}
           placeholderTextColor = '#777'
           selectionColor = 'darkblue'
-          onChangeText={(text) => this.setState({text})}
+          onChangeText={this.props.onChangeText}
         />
     );
   }
