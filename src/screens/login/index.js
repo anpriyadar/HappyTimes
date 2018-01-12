@@ -45,6 +45,10 @@ changePassword(password){
     password: password,
   });
 }
+submitt(){
+  this.props.login(this.state.username, this.state.password),
+  this.props.navigation.navigate("Home")
+}
 
   render() {
     const deviceStyle = Platform.OS === 'ios' ?[s.borderFullGreyThin,rs.inputWidth,s.height40,s.backgroundWhite,s.borderRadiusLg,s.fullPaddingSm] : [rs.inputWidth,s.height40,s.backgroundWhite,s.borderRadiusLg,s.fullPaddingSm,s.borderFullGreyThin]
@@ -68,7 +72,7 @@ changePassword(password){
         onChangeText={this.changePassword.bind(this)}
       />
 
-      <TouchableWithoutFeedback onPress ={()=>this.props.login(this.state.username, this.state.password)}>
+      <TouchableWithoutFeedback onPress ={()=>this.submitt()}>
       <View style={[rs.button, s.alignItemsCenter]}>
       <Text>
        Submitt
